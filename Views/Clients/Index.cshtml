@@ -1,0 +1,19 @@
+@{
+  Layout = "_Layout";
+}
+
+<body>
+  <div class="container">
+    <div class="title">
+      <h1>Hair Salon</h1>
+    </div>
+
+    <div class="buttons">
+      <div class="salons">
+        @Html.ActionLink("See Clients", "Index", "Clients", null, new { @class = "btn btn-dark btn-large"})<br>
+      </div>
+      @Html.ActionLink("See Stylits", "Index", "Stylists", null, new { @class = "btn btn-dark btn-large" })<br>
+    </div>
+
+  </div>
+</body>
