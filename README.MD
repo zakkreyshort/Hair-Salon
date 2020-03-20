@@ -1,23 +1,23 @@
-# _Bakery Orders!_
+# _Hair Salon!_
 
-#### _Epicodus independent project C# week 3:_
-#### _13 March 2020_
+#### _Epicodus independent project C# week 4:_
+#### _20 March 2020_
 
 #### By _**Zakkrey Short**_
 
 ## Description
 
-_This project is a console application written in C#/.NET that acts as a pastry shop and returns an amount based off of bread or pastry ordered._
+_This project is an application to keep track of clients for specific stylists in a hair salon. This could be used for management purposes to track new members and visit det_
 
 ## Specifications:
 
 
 | Specification | Example Input | Example Output |
 | ------------- |:-------------:| --------------:|
-| Console asks for decision | n/a |  [pastry] |
-| User enters a decision | [bread] | _asks question_|
-| Console asks for quantity wanted | 3 | back to main |
-| User chooses to either buy more or checkout | [checkout] | Console displays "Your total is: $ |
+| Opens to splash page | *none* | [View Clients/Stylist] |
+| Open to stylist page | *View Stylist* | _No clients have been added yet!_ |
+| Create stylist page | *enter name/details* | TestName1 |
+| Stylist details page  | | |
 
 
 ## Setup/Installation Requirements
@@ -32,11 +32,22 @@ _This project is a console application written in C#/.NET that acts as a pastry 
 
 
 ## Bugs
-_Have not created a separate checkout form inside the order class, or create other types of pastries/rolls. Does display totals._
+_No known bugs_
 
 ## Technologies Used
 
-_Git, VSCode, C#/.NET_
+*_Git_
+*_VSCode_
+*_HTML_
+*_CSS_
+*_C#_
+*_.NET Core 2.2_
+*_ASP .NET Core MVC(version 2.2)_
+*_Razor_
+*_dotnet script_
+*_MySQL_
+*_MySQL Workbench_
+*_Entity Framework Core 2.2_
 
 ### License
 
