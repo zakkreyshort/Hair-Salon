@@ -2,18 +2,21 @@
   Layout = "_Layout";
 }
 
-<body>
-  <div class="container">
-    <div class="title">
-      <h1>Hair Salon</h1>
-    </div>
+@using HairSalon.Models;
+@model List<HairSalon.Models.Client>;
 
-    <div class="buttons">
-      <div class="salons">
-        @Html.ActionLink("See Clients", "Index", "Clients", null, new { @class = "btn btn-dark btn-large"})<br>
-      </div>
-      @Html.ActionLink("See Stylits", "Index", "Stylists", null, new { @class = "btn btn-dark btn-large" })<br>
-    </div>
+<h1>Client</h1>
 
-  </div>
-</body>
+@if (@Model.Count == 0)
+{
+  <h3>No Clients have been added yet!</h3>
+} 
+
+@foreach (Client client in Model)
+{
+  <li>@Html.ActionLink($"{client.Name}", "Details", new { id = client.ClientId }) | @client.Stylist.Name</li>
+}
+
+<p>@Html.ActionLink("Add new client", "Create")</p>
+
+<p>@Html.ActionLink("Home", "Index", "Home")</p>
