@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://lh3.googleusercontent.com/proxy/qdDxizSENjc6vLtfye4z0ndvilsX31pTzAOgTcLax9nKKCLxkqqRxODsgnZFFnRf8PyES1mKHwbgkI22Fn8sp4mhVnyYjUn16eXTQ9mBlzV0O-sDi6-j3uWPb6M0dlaE0tuygi4AfidDqw7WQw);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .title {
+    background: rgba(83, 83, 83, 0.39);
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+  }
+  
+  .title h1 {
+    font-size: 120px;
+    font-family: 'Sulphur Point', sans-serif;
+  }
+  
+  .buttons {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Sulphur Point', sans-serif;
+  }
+  
+  .clients {
+    display: inline-block;
+  }
+  
+  .center {
+    text-align: auto;
+    margin-top: 300px;
+  }
+  
+  #StylistList {
+    color: beige;
+  }
