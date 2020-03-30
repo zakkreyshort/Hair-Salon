@@ -52,7 +52,7 @@ _Build the database ``zakkrey_short`` using MySQL either manually, or through th
 * _CREATE DATABASE zakkrey_short_;
 * _Use zakkrey_short_;
 * _CREATE TABLE stylists (StylistId INT NOT NULL AUTO_INCREMENT, Name VARCHAR(255) NULL, Details VARCHAR(255) NUll, PRIMARY KEY (StylistId));
-* _CREATE TABLE clients (ClientId INT NOT NULL AUTO_INCREMENT, Name VARCHAR(255) NULL, StylistId INT NULL DEFAULT 0, PRIMARY KEY (ClientId));_
+* _CREATE TABLE clients (ClientId INT NOT NULL AUTO_INCREMENT, Name VARCHAR(255) NULL, StylistId INT NULL DEFAULT 0, PreferredStylist VARCHAR(255) NULL, City VARCHAR(255) NULL, PRIMARY KEY (ClientId));_
 
 
 _Run this application by entering the following command in Terminal (macOS) or PowerShell (Windows):_
